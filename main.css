@@ -1,4 +1,63 @@
-body { background-color: #eeeeee; /* light gray */ font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; font-weight: 500; font-size: 14px; color: #1e1e1e; /* dark gray */ }
+body {
+	background-color: #b7d1c4
+}
 
-h1 { background-color: #004060; color: #ffffff; padding: 4px 8px; }
+h1 {
+	font-family: Verdana;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	color: #acd1b2;
+}
+
+h3 {
+	font-family: Verdana;
+	font-weight: bold;
+	text-align: left;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	color: #acd1b2;
+}
+
+
+
+
+#Exercises {
+	position: relative;
+	top: -10px;
+	background-color: #3c4543;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+ul{
+	list-style-type: none;
+	position: fixed;
+	margin: -10px;
+}
+
+li {
+	/*Add your CSS here!*/
+	display: inline;
+	padding: 5px;
+	border: 2px solid #000000;
+	font-family: Futura, Tahoma, sans-serif;
+	color: #ffffff;
+	border-radius: 5px 5px;
+	background-color: #cc0323
+}
+
+#Projects{
+	border: 2px solid #000000;
+	float:left;
+	position: relative;
+	left: 229px;
+	bottom: -20px;
+	border-radius: 5px;
+	background-color: #cc0323;
+	height: 30px;
+	width: 150px;
+	
+}
 
