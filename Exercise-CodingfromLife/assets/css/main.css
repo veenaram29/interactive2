@@ -10,176 +10,249 @@ body {
 	width: 900px;
 	height: 556px;
 	margin: 100px auto;
-	background: #707070;
+	background: orange;
 	position: relative;
 }
 
 #mat {
-	width: 600px;
-	height: 300px;
-	background: white;
+	width: 895px;
+	height:100px;
+	background: orange;
 	position: absolute;
-	right: 100px;
-	bottom: 300px;
-	top:150px;
+	right: 5px;
+	bottom: 100px;
+	top:455px;
+	border-bottom: 100px solid red;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	
+	  
+	     
+
+				
 }
 
 	
 #ball {
 	width: 170px;
 	height: 170px;
-	background: blue;
+	background: linear-gradient(135deg, red, blue);
+
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50%;
 	position: absolute;
 	left: 450px;
-	bottom: 120px;
+	bottom: 50px;
 	
 
 }
 #vegetable {
 	width: 100px;
 	height: 100px;
-	background: yellow;
+	background: linear-gradient(135deg, green, blue);
+	
+
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
 	position: absolute;
-	bottom: 120px;
+	bottom: 80px;
 	left: 650px;
 
 }
+
 #vegetable1 {
 	width: 50px;
 	height: 50px;
-	background: yellow;
+	background:green;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
 	position: absolute;
-	bottom: 190px;
+	bottom: 140px;
 	left: 650px;
 
 }
 #vase {
 	width: 100px;
 	height: 150px;
-	background: black;
-	
 	position: absolute;
+	background: gray;
+	border-radius: 10px;
+	opacity: 0.7;
 	left: 250px;
-	top: 280px;
-	
+	top: 340px;
+
 	
 
 }	
+#water{
+    width: 100px;
+	height: 80px;
+	position: absolute;
+	background: #6fc4f9;
+	border-radius: 0px 0px 10px 10px;
+	opacity: 0.7;
+	left: 250px;
+	bottom: 68px;
+	
+
+
+}
 #vase1 {
 	width: 100px;
-	height: 40px;
-	background: orange;
-	
+	height: 20px;
+	background:#380000  ;
 	position: absolute;
 	left: 250px;
-	top: 280px;
+	top: 340px;
 	
-	
-
-
-
 }	
 
-#verticalLine {
+#stem {
 	width: 10px;
-	height: 180px;
+	height: 199px;
 	background: #007256;
 	left: 260px;
-	top: 250px;
+	top: 270px;
 	bottom:200px;
 	position: absolute;
+	transform: rotate(-8deg);
 	
 	
 	
     
 }
-#verticalLine1 {
-	width: 10px;
-	height: 180px;
+#stem1{
+	width: 8px;
+	height: 199px;
 	background: #007256;
 	left: 280px;
-	top: 250px;
+	top: 270px;
 	position: absolute;
+	transform: rotate(16deg);
 	
-	
-	
-    
 }
-#verticalLine2 {
+
+#stem2 {
 	width: 10px;
-	height: 180px;
+	height: 199px;
 	background: #007256;
 	left: 300px;
-	top: 250px;
+	top: 270px;
 	position: absolute;
+	-webkit-transform: rotate(-22deg);
 	
-	
-	
-    
 }
-#verticalLine3 {
+
+#stem3 {
 	width: 10px;
-	height: 180px;
+	height: 199px;
 	background: #007256;
 	left: 320px;
-	top: 250px;
+	top: 270px;
 	position: absolute;
+	-webkit-transform: rotate(7deg)
 	
 }
 #flower1{
-	width: 15px;
-	height: 15px;
-	background: yellow;
+	width: 25px;
+	height: 25px;
+	
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
 	left: 320px;
-	top: 250px;
+	top: 260px;
 	position: absolute;
 	
-	}
-	#flower2{
-	width: 15px;
-	height: 15px;
+}
+
+#petal_leftbottom {
+	width: 20px;
+	height: 20px;
+	border-radius: 0 50% 50% 50%;
+	background: purple;
+	transform: rotate(110deg);
+}
+
+#petal_bottom {
+	width: 20px;
+	height: 20px;
+	border-radius: 0 50% 50% 50%;
 	background: yellow;
+	transform: rotate(45deg);
+	position: absolute;
+	top: 5px;
+	left: 8px;
+}
+
+#petal_rightbottom {
+	width: 20px;
+	height: 20px;
+	border-radius: 0 50% 50% 50%;
+	background: purple;
+	transform: rotate(-20deg);
+	position: absolute;
+	top: 0px;
+	left: 16px;
+}
+
+#petal_rightup {
+	width: 20px;
+	height: 20px;
+	border-radius: 0 50% 50% 50%;
+	background: yellow;
+	transform: rotate(-90deg);
+	position: absolute;
+	top: -9px;
+	left: 13px;
+}
+
+#petal_leftup {
+	width: 20px;
+	height: 20px;
+	border-radius: 0 50% 50% 50%;
+	background: purple;
+	transform: rotate(-180deg);
+	position: absolute;
+	top: -9px;
+	left: 3px;
+}
+	#flower2{
+	width: 25px;
+	height: 25px;
+	
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
-	left: 300px;
-	top: 250px;
+	left: 290px;
+	top: 270px;
 	position: absolute;
 	
 	}
 	#flower3{
 	width: 15px;
 	height: 15px;
-	background: yellow;
+	
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
-	left: 280px;
-	top: 250px;
+	left: 440px;
+	top: 360px;
 	position: absolute;
 	
 	}
 	#flower4{
-	width: 15px;
-	height: 15px;
-	background: yellow;
+	width: 18px;
+	height: 18px;
+	
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
-	left: 260px;
-	top: 250px;
+	left: 418px;
+	top: 370px;
 	position: absolute;
 	
 	}
