@@ -5,9 +5,21 @@
   <title>Magic Set</title>
   <meta charset="utf-8" />
   <link rel="stylesheet" href="main.css" type="text/css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script>
+$(document).ready(function(){
+    $("#containerB").click(function(){
+        $("#containerB").animate({height: "300px"});
+    });
+    $("containerB").click(function(){
+        $("#containerB").animate({height: "100px"});
+    });
+});
+</script>
 </head>
 
 <body>
+  
   <div id="container1">
     <h1>Magic Set</h1>
     <nav>
@@ -30,7 +42,8 @@
     <div id="containerC">
       <div id="C1"></div>
       <div id="C2"></div>
-    </div>
+    
+  </div>
     <div id="containerD">
       <div id="D1"></div>
       <div id="D2"></div>
@@ -109,7 +122,12 @@
       <div id="P2"></div>
     
     </div>
-    
+  
+    <div id="containerQ">
+      <div id="Q1"></div>
+      <div id="Q2"></div>
+      <div id="Q3"></div>
+    </div>
     <div id="containerR">
       <div id="R1"></div>
       <div id="R2"></div>
@@ -117,7 +135,7 @@
     
     </div>
     
-    </div>
+    
     
     <div id="containerT">
       <div id="T1"></div>

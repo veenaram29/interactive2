@@ -34,9 +34,14 @@ HEADER */
 /* ————————————————————————
 ALPHABET */
 
-#containerA{
-	position:relative;
+#container2{
+  left: 0px;
+  top: 0px;
+  text-align: center;
+  position:relative;
 }
+
+
 
 #A1{
   width: 10px;
@@ -68,8 +73,8 @@ ALPHABET */
 }
 
 #containerB{
-	top:280px;
-	left: 220px;
+	top:5px;
+  left: 150px;
 	position:relative;
 }
 
@@ -96,7 +101,7 @@ ALPHABET */
 }
 
 #B3{
-  width:48px; height:42px;  
+  width:50px; height:43px;  
   border:solid 8px #ff1a94;
   left:-5px;
   top:-2px;
@@ -107,7 +112,7 @@ ALPHABET */
 }
 
 #B4{
-  width:48px; height:42px;  
+  width:50px; height:43px;  
   border:solid 8px #ff1a94;
   left:0px;
   top:60px;
@@ -118,10 +123,13 @@ ALPHABET */
 }
 
 #containerC{
-	top:480px;
-	left: 1252px;
-	position:relative;
+	top:-45px;
+	left:250px;
+  position:relative;
+
 }
+
+
 
 #C1{
   width:110px; height:18px;  
