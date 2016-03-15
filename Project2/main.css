@@ -2,7 +2,6 @@ body{
   background:white;
   color: grey;
   font-family:futura;
-  position:relative;
   text-align:center;
 }
 
@@ -10,8 +9,7 @@ body{
 HEADER */
 
 #container1{
-  left: 639px;
-  top: 190px;
+  margin: 50px auto;
   font-size: 10px;
 }
 .nav a{
@@ -35,47 +33,47 @@ HEADER */
 ALPHABET */
 
 #container2{
-  left: 0px;
-  top: 0px;
+  margin: 50px auto;
   text-align: center;
   position:relative;
 }
 
+#containerA{
+  position:absolute;
+  top:0px;
+  left:0px;
 
-
+}
 #A1{
   width: 10px;
   height: 134px;
   background: #ff1a94;
-  left: 26px;
-  top: 3px;
-  position: absolute;
+  position: relative;
   transform: rotate(16deg);
 }
 #A2{
   width: 10px;
   height: 134px;
   background: #ff1a94;
-  left: 70px;
-  top: 0px;
-  position: absolute;
+  position: relative;
   transform: rotate(1600deg);
 }
 #A3{
  width:20px; height:2px;  
  border:solid 8px #ff1a94;
- left:40px;
- top:52px;
- position: absolute;
+ position: relative;
  border-color:#ff1a94 transparent transparent transparent;
  border-radius: 50%/13px 20px 0 0;
  transform: rotate(-202deg);
 }
 
+
 #containerB{
-	top:5px;
-  left: 150px;
+  left:120px;
+  top:10px;
 	position:relative;
+  float: left;
+
 }
 
 #B1{
@@ -123,9 +121,10 @@ ALPHABET */
 }
 
 #containerC{
-	top:-45px;
-	left:250px;
-  position:relative;
+	top:-40px;
+	left:188px;
+  position:absolute;
+  float: left;
 
 }
 
@@ -157,7 +156,7 @@ ALPHABET */
 #containerD{
   top:340px;
   left:840px;
-  position:relative;
+  position:absolute;
 }
 
 #D1{
@@ -588,6 +587,43 @@ ALPHABET */
   transform: rotate(-276deg);
 }
 
+#containerQ{
+  top:104px;
+  left:120px;
+  position:relative;
+}
+
+#Q1{
+  width:126px; height:54px;  
+  border:solid 10px #ff1a94;
+  left:24px;
+  top:60px;
+  position: absolute;
+  border-color:#ff1a94 transparent transparent transparent;
+  border-radius: 500%/720px 652px 0 0;
+  transform: rotate(-270deg);
+
+}
+#Q2{
+  width:126px; height:54px;  
+  border:solid 10px #ff1a94;
+  left:-24px;
+  top:60px;
+  position: absolute;
+  border-color:#ff1a94 transparent transparent transparent;
+  border-radius: 500%/720px 652px 0 0;
+  transform: rotate(270deg);
+}
+#Q3{
+  width: 10px;
+  height: 58px;
+  background: #ff1a94;
+  left: 84px;
+  top: 124px;
+  position: absolute;
+  transform: rotate(-31deg);
+}
+
 #containerR{
   top:509px;
   left:1020px;
@@ -623,6 +659,50 @@ ALPHABET */
   position: absolute;
   transform: rotate(-42deg);
 }
+
+#containerS{
+  top:100px;
+  left:250px;
+  position:relative;
+
+}
+
+#S1{
+  width:110px; height:18px;  
+  border:solid 10px #ff1a94;
+  left:1px;
+  top:126px;
+  position: absolute;
+  border-color:#ff1a94 transparent transparent transparent;
+  border-radius: 50%/29px 24px 0 0;
+  transform: rotate(190deg);
+
+}
+#S2{
+  width:110px; height:18px;  
+  border:solid 10px #ff1a94;
+  left:1px;
+  top:88px;
+  position: absolute;
+  border-color:#ff1a94 transparent transparent transparent;
+  border-radius: 50%/29px 24px 0 0;
+  transform: rotate(-378deg);
+
+}
+
+
+#S3{
+  width:110px; height:18px;  
+  border:solid 10px #ff1a94;
+  left:1px;
+  top:154px;
+  position: absolute;
+  border-color:#ff1a94 transparent transparent transparent;
+  border-radius: 50%/29px 24px 0 0;
+  transform: rotate(-190deg);
+
+}
+
 
 #containerT{
   top:120px;
@@ -688,6 +768,36 @@ ALPHABET */
  border-radius: 50%/13px 20px 0 0;
  transform: rotate(-230deg);
 }
+#containerU{
+  top:280px;
+  left:150px;
+  position:relative;
+
+}
+
+#U1{
+  width:110px; height:18px;  
+  border:solid 10px #ff1a94;
+  left:1px;
+  top:134px;
+  position: absolute;
+  border-color:#ff1a94 transparent transparent transparent;
+  border-radius: 50%/29px 24px 0 0;
+  transform: rotate(260deg);
+
+}
+#U2{
+  width:110px; height:18px;  
+  border:solid 10px #ff1a94;
+  left:32px;
+  top:130px;
+  position: absolute;
+  border-color:#ff1a94 transparent transparent transparent;
+  border-radius: 50%/29px 24px 0 0;
+  transform: rotate(460deg);
+
+}
+
 
 #containerV{
   top:280px;
@@ -838,4 +948,19 @@ ALPHABET */
   top: 81px;
   position: absolute;
   transform: rotate(-90deg);
+}
+#containerN11{
+  top:520px;
+  left:1020px;
+  position:relative;
+}
+
+#Na{
+  width: 10px;
+  height: 134px;
+  background: #ff1a94;
+  left: 80px;
+  top: 4px;
+  position: absolute;
+  transform: rotate(1deg);
 }
