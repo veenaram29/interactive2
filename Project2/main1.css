@@ -95,7 +95,46 @@
 	background: white;
 	margin-right: 0px;
 	float: left;
+	-webkit-animation: bounceIn 1.5s both 1s;
 }
+@-webkit-keyframes bounceIn{
+  0% { 
+    transform: scale(0.1); 
+    -webkit-transform: scale(0.1);
+    opacity: 0;
+  } 
+
+  60% { 
+    transform: scale(1.2); 
+    -webkit-transform: scale(1.2);
+    opacity: 1;
+  } 
+
+  100% { 
+    transform: scale(1); 
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes bounceIn{
+  0% { 
+    transform: scale(0.1); 
+    -webkit-transform: scale(0.1);
+    opacity: 0;
+  } 
+
+  60% { 
+    transform: scale(1.2); 
+    -webkit-transform: scale(1.2);
+    opacity: 1;
+  } 
+
+  100% { 
+    transform: scale(1); 
+    -webkit-transform: scale(1);
+  }
+}
+
 .c1{
   width:50px; height:16px;  
   border:solid 8px #ff1a94;
@@ -735,6 +774,7 @@
 	background: white;
 	margin-right: 0px;
 	float: left;
+	animation: bounceIn 5s;
 }
 .t1{
   width: 8px;
