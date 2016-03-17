@@ -16,14 +16,14 @@ html, body {
 	position: absolute;
 }
 
-.letterA:active .a1 {
+.letterA:hover .a1 {
    display: none;
 
 }
-.letterA:active .a2{
+.letterA:hover .a2{
 	display: none;
 }
-.letterA:active .a3{
+.letterA:hover .a3{
 	display: none;
 }
 
