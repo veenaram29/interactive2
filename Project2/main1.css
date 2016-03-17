@@ -44,12 +44,13 @@ html, body {
 }
 .letterC:active .c2{
 	display: none;
-	 
+	
 }
-.letterD:hover {
-	transform: scale(1.2); 
-	-webkit-transform: scale(1.2);
-	opacity: 1;
+.letterD:active .d1 {
+	display: none;
+}
+.letterD:active .d2 {
+	display: none;
 }
 .letterE:active {
 	-webkit-transform: rotateY(-180deg);
