@@ -16,18 +16,10 @@ html, body {
 	position: absolute;
 }
 
-.letterA{
-	 width: 74px;
-	 height: 88px;
-	 position:relative;
-}
+
 .letterA:hover .a1{
 	display: none;
-	 /*content: url('images/apple.png');
-     position:absolute;
-     display:block;
-     width: 74px;
-	 height: 88px;*/
+	 
 }
 .letterA:hover .a2{
 	display: none;
@@ -35,9 +27,19 @@ html, body {
 .letterA:hover .a3{
 	display: none;
 }
-.letterB:hover {
-	-webkit-transform: rotateX(-180deg);
-    transform: rotateX(-180deg);
+
+.letterB:hover .b1{
+	display: none
+	 
+}
+.letterB:hover .b2{
+	display: none;
+}
+.letterB:hover .b3{
+	display: none;
+}
+.letterB:hover .b4{
+	display: none;
 }
 
 .letterC:hover {
