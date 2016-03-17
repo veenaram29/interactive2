@@ -18,7 +18,6 @@ html, body {
 
 .letterA:active .a1 {
    display: none;
-   position:relative;
    
 }
 .letterA:active .a2{
