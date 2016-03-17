@@ -29,7 +29,6 @@ html, body {
 
 .letterB:active .b1{
 	display: none;
-	 
 }
 .letterB:active .b2{
 	display: none;
@@ -40,18 +39,21 @@ html, body {
 
 .letterC:active .c1{
 	display: none;
-	 
+	
 }
 .letterC:active .c2{
 	display: none;
-	
+	position: relative;
 }
 .letterD:active .d1 {
 	display: none;
+	position: relative;
 }
 .letterD:active .d2 {
 	display: none;
+	position: relative
 }
+
 .letterE:active {
 	-webkit-transform: rotateY(-180deg);
     transform: rotateY(-180deg);
