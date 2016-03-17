@@ -222,7 +222,7 @@ html, body {
 	border:solid 8px #ff1a94;
 	left:1px;
 	top:45px;
-	position: absolute;
+	position: relative;
 	border-color:#ff1a94 transparent transparent transparent;
 	border-radius: 50%/29px 24px 0 0;
 	transform: rotate(190deg);
@@ -233,7 +233,7 @@ html, body {
 	border:solid 8px #ff1a94;
 	left:-7px;
 	top:22px;
-	position: absolute;
+	position: relative;
 	border-color:#ff1a94 transparent transparent transparent;
 	border-radius: 50%/33px 26px 0 0;
 	transform: rotate(324deg);
@@ -255,7 +255,7 @@ html, body {
 	background: #ff1a94;
 	left: 14px;
 	top: 10px;
-	position: absolute;
+	position: relative;
 	transform: rotate(1deg);
 }
 
@@ -264,7 +264,7 @@ html, body {
 	border:solid 8px #ff1a94;
 	left:-2px;
 	top:4px;
-	position: absolute;
+	position: relative;
 	border-color:#ff1a94 transparent transparent transparent;
 	border-radius: 500%/720px 652px 0 0;
 	transform: rotate(-278deg);
