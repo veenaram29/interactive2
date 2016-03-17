@@ -16,35 +16,35 @@ html, body {
 	position: absolute;
 }
 
+.letterA:active .a1 {
+   display: none;
+   
+}
+.letterA:active .a2{
+	display: none;
+}
+.letterA:active .a3{
+	display: none;
+}
 
-.letterA:hover .a1{
+.letterB:active .b1{
 	display: none;
 	 
 }
-.letterA:hover .a2{
+.letterB:active .b2{
 	display: none;
 }
-.letterA:hover .a3{
+.letterB:active .b3{
 	display: none;
 }
 
-.letterB:hover .b1{
-	display: none
+.letterC:active .c1{
+	display: none;
 	 
 }
-.letterB:hover .b2{
+.letterC:active .c2{
 	display: none;
-}
-.letterB:hover .b3{
-	display: none;
-}
-.letterB:hover .b4{
-	display: none;
-}
-
-.letterC:hover {
-	-webkit-transform: rotateY(-180deg);
-    transform: rotateY(-180deg);
+	 
 }
 .letterD:hover {
 	transform: scale(1.2); 
