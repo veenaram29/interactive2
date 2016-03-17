@@ -18,6 +18,7 @@ html, body {
 
 .letterA:active .a1 {
    display: none;
+   position:relative;
    
 }
 .letterA:active .a2{
@@ -153,7 +154,7 @@ html, body {
 .a3{
 	width:40px; height:2px;  
 	border:solid 8px #ff1a94;
-	position: relative;
+	position: absolute;
 	left:4px;
 	top:-120px;
 	border-color:#ff1a94 transparent transparent transparent;
@@ -177,7 +178,7 @@ html, body {
 	background: #ff1a94;
 	left: 17px;
 	top: 10px;
-	position: relative;
+	position: absolute;
 	border-color:#ff1a94 transparent transparent transparent;
 	border-radius: 50%/7px 15px 0 0;
 }
@@ -187,7 +188,7 @@ html, body {
 	border:solid 8px #ff1a94;
 	left:12px;
 	top:-60px;
-	position: relative;
+	position: absolute;
 	border-color:#ff1a94 transparent transparent transparent;
 	border-radius: 400%/320px 420px 0 0;
 	transform: rotate(-276deg);
@@ -198,7 +199,7 @@ html, body {
 	border:solid 8px #ff1a94;
 	left:17px;
 	top:-90px;
-	position: relative;
+	position: absolute;
 	border-color:#ff1a94 transparent transparent transparent;
 	border-radius: 400%/320px 420px 0 0;
 	transform: rotate(-276deg);
@@ -221,7 +222,7 @@ html, body {
 	border:solid 8px #ff1a94;
 	left:1px;
 	top:45px;
-	position: relative;
+	position: absolute;
 	border-color:#ff1a94 transparent transparent transparent;
 	border-radius: 50%/29px 24px 0 0;
 	transform: rotate(190deg);
@@ -232,7 +233,7 @@ html, body {
 	border:solid 8px #ff1a94;
 	left:-7px;
 	top:22px;
-	position: relative;
+	position: absolute;
 	border-color:#ff1a94 transparent transparent transparent;
 	border-radius: 50%/33px 26px 0 0;
 	transform: rotate(324deg);
@@ -254,7 +255,7 @@ html, body {
 	background: #ff1a94;
 	left: 14px;
 	top: 10px;
-	position: relative;
+	position: absolute;
 	transform: rotate(1deg);
 }
 
@@ -263,7 +264,7 @@ html, body {
 	border:solid 8px #ff1a94;
 	left:-2px;
 	top:4px;
-	position: relative;
+	position: absolute;
 	border-color:#ff1a94 transparent transparent transparent;
 	border-radius: 500%/720px 652px 0 0;
 	transform: rotate(-278deg);
