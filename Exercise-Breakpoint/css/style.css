@@ -1,0 +1,81 @@
+@import url();
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+	background-color: lightblue;
+}
+
+/* Text
+-------------------------------------------------- */
+.text{
+	padding-left: 2.25em;
+	padding-right: 2.25em;
+	padding-top: 1em;
+}
+h1{
+	font-size: 5em;
+	font-weight: 900;
+}
+h2{
+	font-size: 3em;
+	font-weight: 100;
+}
+h1, h2{
+	color: red;
+} 
+
+/* Image
+-------------------------------------------------- */
+
+.l{
+	width:100%;
+}
+.img-grid{
+	text-align:center;
+}
+.s{
+	width: 20%;
+
+}
+/* iPad 
+-------------------------------------------------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+	/* text */
+	h1, h2{
+		color: blue;
+	}
+	h1{
+		font-size: 10em;
+		font-weight: 900;
+	}
+	/* image */
+}
+
+/* Mobile
+-------------------------------------------------- */
+
+@media screen and (max-width: 768px) {
+
+	/* text */
+	.text{
+	margin-left: 2px;
+    }
+    body{
+    	background-color: yellow;
+    }
+	h1, h2{
+		color: green;
+	}
+	h1{
+		font-size: 12em;
+		font-weight: 900;
+		font-family: "Times New Roman";
+	}
+	/* image */
+
+}
+
+
