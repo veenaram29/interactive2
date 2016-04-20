@@ -1,0 +1,87 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+	font-weight: 200;
+	background-color: white;
+}
+.title{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: grey;
+    opacity: 0.4;
+    width:50%;
+	height:96%;
+	font-family:sans-serif;
+	font-weight: 200;
+}
+h1, h2{
+	color: #fff;
+} 
+.healway{
+
+	
+}
+/* Text
+-------------------------------------------------- */
+.title h1{
+	font-size: 48pt;
+	float:left;
+	margin-left:20px;
+	
+}
+
+.title h2{
+	font-size: 20pt;
+	float:left;
+}
+
+.healaway h1{
+	text-align : center; 
+}
+.healaway h2{
+	text-align : center;
+}
+.c h1{
+	text-align: center;
+	width:50%;
+	height:20%;
+	float:left;
+}
+/* Image
+-------------------------------------------------- */
+
+.a{
+	width: 100%;
+	position:relative;
+}
+
+.B1{
+	width:100%;
+}
+.c {
+	text-align:right;
+	width:50%;
+	float:right;
+}
+/* Mobile
+-------------------------------------------------- */
+
+@media screen and (max-width: 768px) {
+
+	/* text */
+	.text{
+	margin-left: 2px;
+    }
+    body{
+    	background-color: yellow;
+    }
+	h1, h2{
+		color: green;
+	}
+	h1{
+		font-size: 12em;
+		font-weight: 200;
+		font-family: "Times New Roman";
+	}
