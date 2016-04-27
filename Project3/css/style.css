@@ -216,7 +216,7 @@ p {
 	float:left;
 }
 .promotion-say  {
-	width:50%;
+	width:40%;
 	margin:0;
 	padding:0;
 	float:left;
@@ -225,7 +225,7 @@ p {
 	padding-top:130px;
 }
 .promotion-say1  {
-	width:60%;
+	width:30%;
 	margin:0;
 	padding:0;
 	float:left;
@@ -235,16 +235,15 @@ p {
 }
 
 .promotion-doctorimg1 {
-	width:20%;
+	width:30%;
 	margin:0;
 	padding:0;
 	padding-left:10px;
+	padding-top:50px;
 	float:right;
 }
 .promotion-doctorimg1 img{
 	width:100%;
-	padding-right:50px;
-	float:right;
 }
 /* footer Container 
 -------------------------------------------------- */
