@@ -305,10 +305,15 @@ a{
 
 /* Image
 -------------------------------------------------- */
-.B1{
+.B1 {
 	width:100%;
 	body {background-image: url(images/animation.gif);}
+	animation-iteration-count:infinite;
 	/*height:500px;*/
+}
+.B1 img{
+	display:block;
+    margin: 0 auto;
 }
 
 /* Mobile
