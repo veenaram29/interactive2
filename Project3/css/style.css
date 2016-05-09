@@ -252,44 +252,17 @@ a{
 .footer{
 	width:100%;
 	height:auto;
-
-	
-
+}
+.footer h2{
+	width:100%;
+	height:auto;
+	margin:0;
+	font-family:font-family: 'Source Sans Pro', sans-serif;
+	text-align:center;
 }
 
 
 
-/*
-.footer-img1 img{
-	width:5%;
-	margin:0;
-	padding:0;
-	padding-left:250px;
-	padding-right:300px;
-	padding-top:30px;
-	
-}
-.footer-img2 img{
-	width:5%;
-	margin:0;
-	padding:0;
-	float:left;
-	padding-left:250px;
-	padding-right:30px;
-	padding-top:30px;
-	
-}
-.footer-img3 img{
-	width:5%;
-	margin:0;
-	padding:0;
-	float:left;
-	padding-left:250px;
-	padding-right:30px;
-	padding-top:30px;
-
-	
-}*/
 
 /* Text
 -------------------------------------------------- */
@@ -306,7 +279,7 @@ a{
 
 
 
-/* Image
+/* B1
 -------------------------------------------------- */
 .B1 {
 	width:100%;
