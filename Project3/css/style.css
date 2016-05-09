@@ -327,6 +327,10 @@ a{
     animation-iteration-count:infinite;*/
 
 }
+.B1 a{
+	font-family:font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 10;;
+}
 
 /* Mobile
 -------------------------------------------------- */
