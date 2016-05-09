@@ -5,8 +5,8 @@ body {
 	background-color: white;
 	font-weight: 200;
 	width: 100%;
-    background-image: url(images/animation.gif);
-    animation-iteration-count:infinite;
+    /*background-image: url(images/animation.gif);
+    animation-iteration-count:infinite;*/
 }
 
 /* Global
@@ -329,7 +329,7 @@ a{
 }
 .B1 a{
 	font-family:font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 10;;
+	font-weight: 30;
 }
 
 /* Mobile
