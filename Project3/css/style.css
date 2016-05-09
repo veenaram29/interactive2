@@ -5,6 +5,8 @@ body {
 	background-color: white;
 	font-weight: 200;
 	width: 100%;
+    background-image: url(images/animation.gif);
+    animation-iteration-count:infinite;
 }
 
 /* Global
@@ -250,6 +252,7 @@ a{
 .footer{
 	width:100%;
 	height:auto;
+
 	
 
 }
@@ -307,6 +310,8 @@ a{
 -------------------------------------------------- */
 .B1 {
 	width:100%;
+	background-position: center center;
+	
 	
 	
 	
@@ -315,10 +320,11 @@ a{
 .B1 img{
 	display:block;
     margin: 0 auto;
+
     background-repeat: no-repeat;
     background-position: center center;
-    body {background-image: url(images/animation.gif);}
-    animation-iteration-count:infinite;
+    /*body {background-image: url(images/animation.gif);}
+    animation-iteration-count:infinite;*/
 
 }
 
